@@ -1,0 +1,13 @@
+---
+- name: Create Nutanix VM
+  hosts: localhost
+  gather_facts: no
+  collections:
+    - nutanix.ncp
+  tasks:
+     - name: Clone a VM
+       ntnx_vms_clone:
+        nutanix_host: 192.168.100.19
+        nutanix_username: admin
+        nutanix_password: Hitachi#1234
+        src_vm_uuid: 054de733-6737-43f0-88f9-7ab632ab5c39
