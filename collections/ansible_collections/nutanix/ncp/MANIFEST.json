@@ -1,0 +1,38 @@
+{
+ "collection_info": {
+  "namespace": "nutanix",
+  "name": "ncp",
+  "version": "1.9.0",
+  "authors": [
+   "Abhishek Chaudhary (@abhimutant)",
+   "Pradeepsingh Bhati (@bhati-pradeep)",
+   "Prem Karat (@premkarat)",
+   "Gevorg Khachatryan (@Gevorg-Khachatryan-97)",
+   "Alaa Bishtawi (@alaa-bish)"
+  ],
+  "readme": "README.md",
+  "tags": [
+   "nutanix",
+   "prism",
+   "ahv",
+   "cloud",
+   "infrastructure"
+  ],
+  "description": "Ansible collection for v3 Nutanix APIs https://www.nutanix.dev/api-reference-v3/",
+  "license": [],
+  "license_file": "LICENSE",
+  "dependencies": {},
+  "repository": "https://github.com/nutanix/nutanix.ansible",
+  "documentation": "https://nutanix.github.io/nutanix.ansible/",
+  "homepage": "https://nutanix.github.io/nutanix.ansible/",
+  "issues": "https://github.com/nutanix/nutanix.ansible/issues"
+ },
+ "file_manifest_file": {
+  "name": "FILES.json",
+  "ftype": "file",
+  "chksum_type": "sha256",
+  "chksum_sha256": "53605482240db70b3ded308c7287a88e732294fe43f06892bf187d7fc3d93d79",
+  "format": 1
+ },
+ "format": 1
+}
